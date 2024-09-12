@@ -35,7 +35,7 @@ func main() {
 
 	app.Get("/cat", getCat)
 	app.Get("/cat/:id", getCatPreview)
-	app.Listen(":3007")
+	app.Listen(":8080")
 }
 
 func getCat(c *fiber.Ctx) error {
